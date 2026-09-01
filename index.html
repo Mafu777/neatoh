@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neatoh Hygiene Group | Commercial Cleaning, Johannesburg</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <nav class="wrap">
+    <a href="#top" class="brand">
+      <img src="images/logo.png.png" alt="Neatoh Hygiene Group">
+    </a>
+    <button class="navtoggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    <div class="navlinks" id="navLinks">
+      <a href="#services">Our Services</a>
+      <a href="#contact">Contact us</a>
+      <a href="#contact" class="btn btn-brass">Request a quote</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="lead" data-reveal-stagger style="transition-delay:0.2s;">Neatoh Hygiene Group works with contractors, developers and property managers across Johannesburg — general cleaning, construction cleanup, rubble removal and renovation support, scheduled around your build program.</p>
+      <div class="hero-actions" data-reveal-stagger style="transition-delay:0.35s;">
+        <a href="#contact" class="btn btn-brass">Request a quote</a>
+        <a href="#services" class="btn btn-outline-dark">See our services</a>
+      </div>
+    </div>
+    <div class="hero-facts">
+      <div class="fact">
+        <span class="num">BASED IN</span>
+        <p>Johannesburg, Gauteng — serving sites across the greater metro.</p>
+      </div>
+      <div class="fact">
+        <span class="num">WHO WE SERVE</span>
+        <p>Contractors, developers, property and facilities managers.</p>
+      </div>
+      <div class="fact">
+        <span class="num">HOW WE WORK</span>
+        <p>Scheduled around your handover date, not the other way around.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2>Four services, <strong>one crew</strong> you can rely on.</h2>
+      <p>Every job is scoped against your program before we quote, so there are no surprises on site day.</p>
+    </div>
+    <div class="service-band">
+      <div class="service" data-reveal>
+        <span class="mark">01</span>
+        <h3>General Cleaning</h3>
+        <p>Ongoing janitorial and facility cleaning for commercial premises, scheduled around your operating hours.</p>
+      </div>
+      <div class="service" data-reveal style="transition-delay:0.1s;">
+        <span class="mark">02</span>
+        <h3>Pre & Post Construction Cleaning</h3>
+        <p>Site-ready cleans before occupation and final cleans once the builders are out, so handover stays on schedule.</p>
+      </div>
+      <div class="service" data-reveal style="transition-delay:0.2s;">
+        <span class="mark">03</span>
+        <h3>Rubble Removal</h3>
+        <p>Builder's rubble and site waste collected and hauled off site, keeping the work area clear and compliant.</p>
+      </div>
+      <div class="service" data-reveal style="transition-delay:0.3s;">
+        <span class="mark">04</span>
+        <h3>Renovations</h3>
+        <p><strong>Renovation</strong> support through every phase of a project, keeping active work areas safe and manageable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="section-head" data-reveal>
+        <h2>Request a <strong>Quote</strong></h2>
+        <p>Tell us about the site and the job — we'll come back with a scoped quote.</p>
+      </div>
+      <form id="quoteForm">
+        <div class="two-col">
+          <div class="field">
+            <label for="company">Company name</label>
+            <input type="text" id="company" required>
+          </div>
+          <div class="field">
+            <label for="contactPerson">Contact person</label>
+            <input type="text" id="contactPerson" required>
+          </div>
+        </div>
+        <div class="two-col">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="service">Service needed</label>
+          <select id="service">
+            <option>General Cleaning</option>
+            <option>Pre & Post Construction Cleaning</option>
+            <option>Rubble Removal</option>
+            <option>Renovations</option>
+            <option>Not sure — advise me</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="address">Site address</label>
+          <input type="text" id="address" required>
+        </div>
+        <div class="field">
+          <label for="message">Job details</label>
+          <textarea id="message" rows="4" placeholder="Site size, timeline, access notes..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-light">Send request</button>
+        <div id="form-success">Thanks — your request has been noted. We'll be in touch shortly. (This form doesn't send anywhere yet — see the README for how to connect it.)</div>
+        <p class="form-note">We respond to commercial enquiries within one business day.</p>
+      </form>
+    </div>
+    <div class="info-panel">
+      <h3>Get in Touch</h3>
+      <div class="row"><div class="k">Address</div><div class="v">Johannesburg, Gauteng, South Africa</div></div>
+      <div class="row"><div class="k">Email</div><div class="v"><a href="mailto:info@neatoh.co.za">info@neatoh.co.za</a></div></div>
+      <div class="row"><div class="k">WhatsApp</div><div class="v"><a href="https://wa.me/27795057107">+27 79 505 7107</a></div></div>
+      <div class="row"><div class="k">Hours</div><div class="v">Mon – Fri, 07:00 – 17:00</div></div>
+      <div class="row"><div class="k">Service area</div><div class="v">Greater Johannesburg metro</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h5>Neatoh Hygiene Group</h5>
+        <p style="max-width:36ch;color:var(--concrete-dark);">Commercial cleaning, pre &amp; post construction cleaning, rubble removal and renovation support for businesses across Johannesburg.</p>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <a href="#services">General cleaning</a>
+        <a href="#services">Pre &amp; post construction</a>
+        <a href="#services">Rubble removal</a>
+        <a href="#services">Renovations</a>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="#contact">Request a quote</a>
+        <a href="#contact">Contact us</a>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <p>Johannesburg, Gauteng</p>
+        <p><a href="mailto:info@neatoh.co.za">info@neatoh.co.za</a></p>
+        <p><a href="https://wa.me/27795057107">+27 79 505 7107</a> (WhatsApp)</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Neatoh Hygiene Group. All rights reserved.</span>
+      <span>Built with Neatoh</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
