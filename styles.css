@@ -401,7 +401,6 @@ footer{background:var(--ink);color:var(--concrete-dark);padding:64px 0 28px;bord
   .navlinks.open{display:flex;}
   .navtoggle{display:block;}
   .hero-grid,.why-grid,.contact-grid,.footer-grid{grid-template-columns:1fr;}
-  .hero-photo{position:relative;width:100%;height:200px;margin-top:20px;}
   .service-band,.process-grid{grid-template-columns:1fr 1fr;}
   .service{border-bottom:1px solid var(--line-light);}
   .step{border-bottom:1px solid var(--line-dark);padding-bottom:24px;margin-bottom:6px;}
