@@ -28,33 +28,68 @@
 <section class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
-      <p class="lead" data-reveal-stagger style="transition-delay:0.2s;">Neatoh Hygiene Group works with contractors, developers and property managers across Johannesburg — general cleaning, construction cleanup, rubble removal and renovation support, scheduled around your build program.</p>
+      <h1 data-reveal-stagger>CLEAN SPACES.<br>READY SITES.<br>PROFESSIONAL HANDOVERS.</h1>
+      <p class="lead" data-reveal-stagger style="transition-delay:0.2s;">Professional commercial cleaning, construction cleaning, rubble removal and renovation support for businesses, contractors, developers and property managers.</p>
       <div class="hero-actions" data-reveal-stagger style="transition-delay:0.35s;">
         <a href="#contact" class="btn btn-brass">Request a quote</a>
         <a href="#services" class="btn btn-outline-dark">See our services</a>
       </div>
     </div>
-    <div class="hero-facts">
-      <div class="fact">
-        <span class="num">BASED IN</span>
-        <p>Johannesburg, Gauteng — serving sites across the greater metro.</p>
+  </div>
+
+  <div class="hero-photo">
+    <img src="images/hero.jpeg" alt="Neatoh construction cleaning crew at work">
+  </div>
+
+<div class="hero-tags">
+  <div class="hero-tags-track">
+    <p>Commercial Cleaning • Construction Cleaning • Rubble Removal • Renovation Support • Commercial Cleaning • Construction Cleaning • Rubble Removal • Renovation Support</p>
+  </div>
+</div>
+</section>
+<section class="trust-strip">
+  <div class="wrap">
+    <h2 class="trust-heading">Professional Cleaning. Built Around Your Business.</h2>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="3.2"/><path d="M4.5 20c1-3.5 4-5.5 7.5-5.5s6.5 2 7.5 5.5"/></svg>
+        <p>Professional Teams</p>
       </div>
-      <div class="fact">
-        <span class="num">WHO WE SERVE</span>
-        <p>Contractors, developers, property and facilities managers.</p>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="4.5" width="17" height="16" rx="1.5"/><path d="M3.5 9h17M8 3v3M16 3v3"/></svg>
+        <p>Reliable Scheduling</p>
       </div>
-      <div class="fact">
-        <span class="num">HOW WE WORK</span>
-        <p>Scheduled around your handover date, not the other way around.</p>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12.5l2 2 4-4.5"/><circle cx="12" cy="12" r="9"/></svg>
+        <p>Quality Inspections</p>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12h16M4 12l4-4M4 12l4 4M20 12l-4-4M20 12l-4 4"/></svg>
+        <p>Flexible Services</p>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-6.5-5.8-6.5-11A6.5 6.5 0 0112 3.5 6.5 6.5 0 0118.5 10c0 5.2-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.2"/></svg>
+        <p>Gauteng</p>
       </div>
     </div>
   </div>
 </section>
-
+<section class="about-split">
+  <div class="wrap about-grid">
+    <div class="about-content">
+      <h2>More Than Cleaning.<br>We Prepare Spaces For What's Next.</h2>
+      <p>Neatoh Hygiene Group provides professional cleaning and site-support services for commercial properties, construction projects and developments. From ongoing workplace cleaning to final post-construction cleanup, we help keep your property clean, presentable and ready for its next stage.</p>
+      <a href="#" class="btn btn-brass">Learn More About Neatoh →</a>
+    </div>
+    <div class="about-image">
+      <img src="images/prepare.jpeg" alt="Neatoh team preparing a site">
+    </div>
+  </div>
+</section>
 <section class="services" id="services">
   <div class="wrap">
     <div class="section-head" data-reveal>
-      <h2>Four services, <strong>one crew</strong> you can rely on.</h2>
+      <h2>One Trusted Team, Complete Property Solutions</h2>
       <p>Every job is scoped against your program before we quote, so there are no surprises on site day.</p>
     </div>
     <div class="service-band">
@@ -89,25 +124,25 @@
         <h2>Request a <strong>Quote</strong></h2>
         <p>Tell us about the site and the job — we'll come back with a scoped quote.</p>
       </div>
-      <form id="quoteForm">
+      <form id="quoteForm" action="https://formspree.io/f/xyeypwqe" method="POST">
         <div class="two-col">
           <div class="field">
             <label for="company">Company name</label>
-            <input type="text" id="company" required>
+            <input type="text" id="company" name="company" required>
           </div>
           <div class="field">
             <label for="contactPerson">Contact person</label>
-            <input type="text" id="contactPerson" required>
+            <input type="text" id="contactPerson" name="contactPerson" required>
           </div>
         </div>
         <div class="two-col">
           <div class="field">
             <label for="email">Email</label>
-            <input type="email" id="email" required>
+            <input type="email" id="email" name="email" required>
           </div>
           <div class="field">
             <label for="phone">Phone</label>
-            <input type="tel" id="phone" required>
+            <input type="tel" id="phone" name="phone" required>
           </div>
         </div>
         <div class="field">
@@ -129,7 +164,7 @@
           <textarea id="message" rows="4" placeholder="Site size, timeline, access notes..."></textarea>
         </div>
         <button type="submit" class="btn btn-outline-light">Send request</button>
-        <div id="form-success">Thanks — your request has been noted. We'll be in touch shortly. (This form doesn't send anywhere yet — see the README for how to connect it.)</div>
+        <div id="form-success">Thanks — your request has been noted. We'll be in touch shortly.</div>
         <p class="form-note">We respond to commercial enquiries within one business day.</p>
       </form>
     </div>
@@ -139,7 +174,7 @@
       <div class="row"><div class="k">Email</div><div class="v"><a href="mailto:info@neatoh.co.za">info@neatoh.co.za</a></div></div>
       <div class="row"><div class="k">WhatsApp</div><div class="v"><a href="https://wa.me/27795057107">+27 79 505 7107</a></div></div>
       <div class="row"><div class="k">Hours</div><div class="v">Mon – Fri, 07:00 – 17:00</div></div>
-      <div class="row"><div class="k">Service area</div><div class="v">Greater Johannesburg metro</div></div>
+      <div class="row"><div class="k">Service area</div><div class="v">Gauteng</div></div>
     </div>
   </div>
 </section>
